@@ -1,17 +1,8 @@
-<h1>Página de exemplo banco</h1>
 
-<button mat-button (click)="openDialog()">Abrir</button>
-<div class="container">
+
   <div class="row">
-    <div class="col-sm">
       <app-header></app-header>
-    </div>
-    <div class="col-sm">
-      <app-content></app-content>
-    </div>
-    <div class="col-sm">
-      //direcionara para o componente footer mesmo principio do app-root
+      <router-outlet></router-outlet>
       <app-footer></app-footer>
-    </div>
+
   </div>
-</div>
